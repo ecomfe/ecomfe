@@ -69,6 +69,7 @@ cs-fe code review 执行手册
 - 正确理解并使用`setTimeout`与`setInterval`，不滥用
 - 注意`DOM`操作的性能，考虑`repaint`与`reflow`
 - 注意`正则表达式`的性能，考虑回溯问题
+- 避免深层作用域引用，适当增加缓存
 
 ### 项目结构
 
