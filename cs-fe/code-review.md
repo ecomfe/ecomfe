@@ -10,6 +10,7 @@ cs-fe code review 执行手册
 
 - [HTML与CSS编码规范](https://github.com/ecomfe/spec/blob/master/html-and-css-code-style.md)
 - [Javascript编码规范](https://github.com/ecomfe/spec/blob/master/javascript-code-style.md)
+- [Less 编码规范](https://github.com/ecomfe/spec/blob/master/less-code-style.md)
 
 除了遵循编码规范，还需符合以下要求：
 
