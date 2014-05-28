@@ -8,8 +8,8 @@ cs-fe code review 执行手册
 
 代码风格必须遵循如下编码规范：
 
-- [HTML与CSS编码规范](https://github.com/ecomfe/spec/blob/master/html-and-css-code-style.md)
-- [Javascript编码规范](https://github.com/ecomfe/spec/blob/master/javascript-code-style.md)
+- [HTML 与 CSS 编码规范](https://github.com/ecomfe/spec/blob/master/html-and-css-code-style.md)
+- [JavaScript 编码规范](https://github.com/ecomfe/spec/blob/master/javascript-code-style.md)
 - [Less 编码规范](https://github.com/ecomfe/spec/blob/master/less-code-style.md)
 
 除了遵循编码规范，还需符合以下要求：
@@ -17,11 +17,11 @@ cs-fe code review 执行手册
 #### CSS
 
 - 避免随意的`style`内联样式
-- 尽量避免CSS Hack，寻求更合理的样式组织
-- class命名清晰合理，不以样式特征命名
+- 尽量避免 CSS Hack，寻求更合理的样式组织
+- class 命名清晰合理，不以样式特征命名
 - 尽量使用属性简写
 
-#### Javascript
+#### JavaScript
 
 - 通过合理的空行，划分逻辑区域
 - 对外暴露的函数、方法、属性、变量有注释
@@ -31,7 +31,7 @@ cs-fe code review 执行手册
 - 禁止全局变量声明和跨文件引用，防止全局变量逃逸
 - 禁止原生对象污染
 - 避免硬编码，考虑使用常量
-- 避免出现大段的字符串常量（如HTML模版、CSS等）
+- 避免出现大段的字符串常量（如 HTML 模版、CSS 等）
 
 
 ### 组织划分
@@ -46,13 +46,13 @@ cs-fe code review 执行手册
 - 通过合理的层级组织，减少class数量
 
 
-#### Javascript
+#### JavaScript
 
-- 单文件行数不宜过长（建议不超过500行），适时通过划分模块，进行文件拆分
+- 单文件行数不宜过长（建议不超过 500 行），适时通过划分模块，进行文件拆分
 - 避免臃肿的函数或方法，保持单一职责
 - 避免过多的循环或分支嵌套，不可避免时通过注释说明
 - 通过函数、类、模块等形式组织代码复用，严禁代码拷贝
-- 有分层思想，合理划分数据处理、业务逻辑处理与DOM操作
+- 有分层思想，合理划分数据处理、业务逻辑处理与 DOM 操作
 - 设计api考虑易用性和扩展性，需要兼顾向下兼容
 - 避免过度划分与设计
 
@@ -60,11 +60,11 @@ cs-fe code review 执行手册
 
 #### CSS
 
-- 在渐进增强的原则下尽量使用CSS3
-- 合理使用CSS伪类减少冗余标签
+- 在渐进增强的原则下尽量使用 CSS3
+- 合理使用 CSS 伪类减少冗余标签
 - 避免复杂的选择器嵌套
 
-#### Javascript
+#### JavaScript
 
 - 避免内存泄漏，正确使用闭包
 - 正确理解并使用`setTimeout`与`setInterval`，不滥用
@@ -74,9 +74,9 @@ cs-fe code review 执行手册
 
 ### 项目结构
 
-- 遵循[项目目录结构规范](https://github.com/ecomfe/spec/blob/master/directory.md)
+- 遵循 [项目目录结构规范](https://github.com/ecomfe/spec/blob/master/directory.md)
 - 按业务分类划分目录，目录名称简单明确
-- 目录内文件数保持合理（建议不少于5个，不多于50个），避免深层次目录结构
+- 目录内文件数保持合理（建议不少于 5 个，不多于 50 个），避免深层次目录结构
 
 
 考核分级
@@ -129,7 +129,7 @@ cs-fe code review 执行手册
 ----
 
 - 项目的文本文件原则上必须使用`UTF-8`编码，如果不是需要给出理由
-- 业务项目中，超长的Javascript文件，需要给出不可拆分的理由
-- 对Javascript全局变量，需要说明理由
+- 业务项目中，超长的 JavaScript 文件，需要给出不可拆分的理由
+- 对 JavaScript 全局变量，需要说明理由
 - 不遵循项目目录结构规范的历史项目，需要给出理由和调整成本评估
 - 可以提交代码划分时的设计材料，可以包含但不限于思路、设计文档、设计图等
